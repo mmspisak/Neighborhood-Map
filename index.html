@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="css/style.css" rel="stylesheet" type="text/css"></link>
+  <script src="js/jQuery.js"></script>
+  <script src="js/mapBuilder.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <div id="main">
+    <div id="mapDiv">
+      <h2>Map</h2>
+    </div>
+  </div>
+  <script src="js/mapData.js"></script>
+  <script type="text/javascript">
+  if(document.getElementById("map") == undefined) {
+    document.getElementById("mapDiv").style.backgroundColor = "black";
+  }
+  </script>
+</body>
